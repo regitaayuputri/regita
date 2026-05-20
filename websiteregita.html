@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regita Ayu Putri</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f8fafc;
+      color: #1e293b;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ec4899, #8b5cf6);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: white;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #7c3aed;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ec4899;
+    }
+
+    main {
+      display: flex;
+      gap: 25px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    #content {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    article {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+    }
+
+    article h2 {
+      color: #7c3aed;
+      margin-bottom: 10px;
+    }
+
+    aside {
+      flex: 1;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+      height: fit-content;
+    }
+
+    aside img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #ec4899;
+      margin-bottom: 15px;
+    }
+
+    aside h2 {
+      color: #7c3aed;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #7c3aed;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+
+      header h1 {
+        font-size: 28px;
+      }
+
+      nav {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Regita Ayu Putri</h1>
+    <p>Personal Website & Submission Dicoding</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#prestasi">Prestasi</a>
+    <a href="#hobi">Hobi</a>
+    <a href="https://www.dicoding.com/users/regita_ayu_putrisb4f/" target="_blank">
+      Profil Dicoding
+    </a>
+  </nav>
+
+  <main>
+
+    <div id="content">
+
+      <article id="tentang">
+        <h2>Tentang Saya</h2>
+        <p>
+          Halo! Saya Regita Ayu Putri. Saya sedang belajar membuat website
+          menggunakan HTML dan CSS. Saya menyukai dunia desain, coding,
+          dan teknologi digital.
+        </p>
+      </article>
+
+      <article id="prestasi">
+        <h2>Prestasi</h2>
+        <p>
+          Saya aktif mengikuti kegiatan belajar teknologi dan terus
+          mengembangkan kemampuan dalam bidang pemrograman web.
+        </p>
+      </article>
+
+      <article id="hobi">
+        <h2>Hobi</h2>
+        <p>
+          Hobi saya adalah mendengarkan musik, menonton film,
+          membuat desain sederhana, dan belajar coding.
+        </p>
+      </article>
+
+    </div>
+
+    <aside>
+      <h2>Profil Singkat</h2>
+
+      <img src="regita.jpeg" alt="Foto Profil">
+
+      <p><strong>Nama:</strong> Regita Ayu Putri</p>
+      <p><strong>Status:</strong> Pelajar</p>
+      <p><strong>Keahlian:</strong> HTML & CSS</p>
+      <p><strong>Email:</strong> regitarere778@gmail.com</p>
+        <p><strong>Kontak:</strong> 085720348140</p>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 | Website Regita Ayu Putri</p>
+  </footer>
+
+</body>
+</html>
